@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tipo: MyString
+  placa: MyString
+  color: MyString
+  modelo: 1
+  cilindraje: 1
+
+two:
+  tipo: MyString
+  placa: MyString
+  color: MyString
+  modelo: 1
+  cilindraje: 1

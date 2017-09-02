@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tipo:</strong>
+  <%= @transporte.tipo %>
+</p>
+
+<p>
+  <strong>Placa:</strong>
+  <%= @transporte.placa %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @transporte.color %>
+</p>
+
+<p>
+  <strong>Modelo:</strong>
+  <%= @transporte.modelo %>
+</p>
+
+<p>
+  <strong>Cilindraje:</strong>
+  <%= @transporte.cilindraje %>
+</p>
+
+<%= link_to 'Edit', edit_transporte_path(@transporte) %> |
+<%= link_to 'Back', transportes_path %>
